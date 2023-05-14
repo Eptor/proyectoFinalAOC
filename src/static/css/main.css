@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+}
+
+.slider {
+    margin-top: 5vh;
+}
+
+
+.token_div > textarea {
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    border: none;
+    text-align: left;
+}
+
