@@ -27,12 +27,14 @@
             <input type="range" min="10" max="100" value="50" class="custom-range" id="count"
                 oninput="sliderChange(this.value)"> <br>
             <label for="output">Longitud del token:</label>
-            <output id="output"></output>
+            <output id="output">50</output>
             <br>
         </div>
 
         <div class="container token_div">
             <textarea name="token" id="token" cols="30" rows="10"></textarea>
+            <br>
+            <button class="btn btn-secondary" onclick="copyText()" type="button">Copiar token</button>
         </div>
     </div>
 

@@ -4,11 +4,11 @@
 
 
 .token_div>textarea {
+    padding: 30px;
     text-align: center;
     width: 90%;
     height: 300px;
     border: none;
-    text-align: left;
     resize: none;
     border-radius: 10px;
     border: 1px solid black;

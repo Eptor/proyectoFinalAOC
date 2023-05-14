@@ -34,3 +34,14 @@ function getToken() {
         error => console.error(error)
     )
 }
+
+function copyText() {
+    var inputToken = document.getElementById("token");
+  
+    inputToken.select();
+    inputToken.setSelectionRange(0, 99999); // For mobile devices
+  
+    navigator.clipboard.writeText(inputToken.value);
+  
+    alert("Se copió el token");
+  }
