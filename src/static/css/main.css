@@ -1,3 +1,11 @@
+body {
+    background-color: #f8f9fa;
+}
+
+* {
+    touch-action: manipulation;
+}
+
 .container {
     text-align: center;
 }
