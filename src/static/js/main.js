@@ -10,10 +10,15 @@ function sliderChange(val) {
 function getToken() {
     var lenght = document.getElementById("count").value
     const inputToken = document.getElementById("token")
+    inputToken.value = "GENERANDO CONTRASEÑA";
     console.log(lenght)
 
     const data = {
-        "count": lenght
+        "count": lenght,
+        "digits": document.getElementById("digits").checked,
+        "lowercase": document.getElementById("lowercase").checked,
+        "uppercase": document.getElementById("uppercase").checked,
+        "punctuation": document.getElementById("punctuation").checked
     };
 
     fetch('/api', {
